@@ -69,6 +69,6 @@ output "public_dns" {
 
 terraform {
   backend "atlas" {
-    name = "henkjan/training"
+    name "henkjan/training"
   }
 }
