@@ -26,7 +26,7 @@ variable "aws_region" {
 }
 
 variable "total_aws_instances" {
-  default = 2
+  default = 3
 }
 
 provider "aws" {
